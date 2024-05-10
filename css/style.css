@@ -90,6 +90,57 @@ a {
     color: var(--main-color);
 }
 
+/****** Searchbar ***********/
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-location-dot {
+    width: 50px;
+    height: 49px;
+    border-radius: 15px 0 0 15px;
+    border: 1px solid var(--main-bg-color);
+    background-color: var(--main-bg-color);
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-area {
+    width: 193px;
+    border-top: 1px solid var(--main-bg-color);
+    border-right: 0px;
+    border-bottom: 1px solid var(--main-bg-color);
+    border-left: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+}
+
+::placeholder {
+    color: black;
+}
+
+
+.search-button {
+    width: 132px;
+    height: 49px;
+    border-radius: 0 15px 15px 0;
+    border: 1px solid var(--main-color);
+    background-color: var(--main-color);
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--filter-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
