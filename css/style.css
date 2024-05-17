@@ -177,7 +177,7 @@ form {
     height: 50px;
     padding: 4px 19px 4px 19px;
     border: 2px var(--main-bg-color) solid;
-    border-radius: 25px;
+    border-radius: 50px;
     align-content: center;
     margin-right: 10px;
 }
@@ -209,7 +209,7 @@ form {
     align-items: center;
     justify-content: center;
     border: 1px var(--main-bg-color) solid;
-    border-radius: 12px;
+    border-radius: 24px;
 }
 
 .infobar i {
@@ -220,6 +220,7 @@ form {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 35px;
 }
 
 .hebergements-and-populaires section {
@@ -254,7 +255,6 @@ form {
 }
 
 .hebergement-cards .card-content {
-    width: 67%;
     padding-bottom: 15px;
     display: flex;
     flex-direction: column;
@@ -277,7 +277,7 @@ form {
 
 .hebergement-cards .afficher-plus {
     font-weight: bold;
-    font-size: 21px;
+    font-size: 19px;
 }
 
 /****** Populaires ***********/
@@ -345,7 +345,13 @@ form {
     border-top-right-radius: 20px;
 }
 
+.activites .card {
+    padding: 0px;
+}
 
+.activites .card-content {
+    padding: 10px 0px 5px 15px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
