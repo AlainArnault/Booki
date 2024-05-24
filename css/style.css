@@ -329,8 +329,9 @@ form {
 /****** Activités ***********/
 
 .activites {
-    width: 100%;
-    margin-top: 70px;
+    width: fit-content;
+    padding: 30px;
+    margin-top: 35px;
     margin-bottom: 35px;
 }
 
