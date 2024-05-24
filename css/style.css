@@ -258,7 +258,7 @@ form {
     padding-bottom: 5px;
     display: flex;
     flex-direction: column;
-    align-items: space-between;
+    align-content: space-between;
     box-sizing: border-box;
 }
 
