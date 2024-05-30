@@ -354,7 +354,8 @@ form {
 }
 
 .activites .card-content {
-    padding: 10px 0px 5px 15px;
+    padding: 0px 0px 10px 15px;
+    max-height: 50px;
 }
 
 /****** Footer ***********/
@@ -363,6 +364,7 @@ footer {
     background-color: var(--main-bg-color);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 20px;
 }
 
 .footer-title{
